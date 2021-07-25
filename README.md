@@ -23,18 +23,28 @@
 
 - [`serviceWorker.js`](serviceWorker.js) [must][serviceWorkLimt] be in root directory.
 
-<!-- 
+----
+----
+----
 
-## Todo
+development notes...
+
+### Todo
 
 - [x] configurar manifest.json
 - [x] [banco](public/js/database.js) base para testar o app 
 - [x] plugin panel
 - [ ] escutar 'selectionchange' - esse evento é disparado quando um texto é digitado
-  - [ ] parsear o que está escrito
-  - [ ] 
-  
-## Sources
+  - [ ] encontrar o input em que o usuário está
+  - [ ] só considerar se ele tivern o padrão `:<text>`
+  - [ ] buscar todos lennies correspondentes
+  - $
+
+$ -> são melhorias, pensar de forma a poder encaixá-las, porém, focar no que for simples primeiro. 
+
+
+
+### Sources
 
 - https://developer.chrome.com/docs/extensions/mv3/intro/
   - https://developer.chrome.com/docs/extensions/mv3/intro/mv3-overview/
@@ -53,6 +63,5 @@
 - https://github.com/mdn/webextensions-examples/tree/master/devtools-panels
 - 
 
--->
 
 [serviceWorkLimt]: https://stackoverflow.com/questions/66114920/service-worker-registration-failed-chrome-extension
