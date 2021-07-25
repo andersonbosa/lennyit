@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+html {
+  /* USER-AGENT: 16px === 1rem */
+  font-size: 62.5%;
+}
+
+body {
+  width: 400px;
+  height: 150px;
+  margin: 0 auto;
+
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+
+  color: whitesmoke;
+
+  font-size: 1.7rem;
+
+  display: flex;
+  flex-flow: column wrap;
+  align-content: center;
+  justify-content: center;
+
+  text-align: center;
+}
+
+.block {
+  width: 100px;
+  display: block;
+  color: inherit;
+  background-color: rgb(216, 192, 216, 1);
+  border-radius: 15px;
+}
+
+.block:hover {
+  background-color: rgb(216, 192, 216, 0.5);
+}
