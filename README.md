@@ -14,6 +14,10 @@
 
 - For further information, [see here](https://unlicense.org).
 
+## Limitations
+
+- [`serviceWorker.js`](serviceWorker.js) [must](https://stackoverflow.com/questions/66114920/service-worker-registration-failed-chrome-extension) be in root directory.
+
 <!-- 
 
 ## Todo
