@@ -16,11 +16,11 @@ body {
   height: 150px;
   margin: 0 auto;
 
-  background: rgb(238, 174, 202);
+  background: #eeaeca;
   background: radial-gradient(
     circle,
-    rgba(238, 174, 202, 1) 0%,
-    rgba(148, 187, 233, 1) 100%
+    #eeaeca 0%,
+    #94bbe9 100%
   );
 
   color: whitesmoke;
@@ -36,14 +36,20 @@ body {
 }
 
 .block {
-  width: 100px;
   display: block;
+}
+
+.github {
+  width: 100px;
   color: inherit;
-  background-color: rgb(216, 192, 216, 1);
+  background-color: #d8c0d8;
   border-radius: 15px;
 }
 
-.block:hover {
-  background-color: rgb(216, 192, 216, 0.5);
+.github:hover {
+  background-color: #d8c0d880;
 }
 
+h2 {
+  color: #81a6cf;
+}
