@@ -46,3 +46,25 @@ body {
 .block:hover {
   background-color: rgb(216, 192, 216, 0.5);
 }
+
+.rainbow {
+  background-image: linear-gradient(
+    to right,
+    red,
+    orange,
+    yellow,
+    rgb(0, 255, 0),
+    rgb(0, 60, 255),
+    rgb(174, 0, 255),
+    violet
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: move 320s linear infinite;
+}
+
+@keyframes move {
+  to {
+    background-position: 4500vh;
+  }
+}
