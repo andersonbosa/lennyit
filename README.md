@@ -47,6 +47,10 @@
 - https://addons.mozilla.org/pt-BR/firefox/
 - https://developer.chrome.com/docs/extensions/mv2/tut_debugging/
 - https://medium.com/tengio-ltd/merging-multiple-service-worker-scripts-in-the-same-scope-83213da915ad
+- https://developer.chrome.com/docs/extensions/
+- https://github.com/GoogleChrome/chrome-extensions-samples/search?q=manifest_version%22%3A+3%2C
+- https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/devtools/inspectedWindow
+- https://github.com/mdn/webextensions-examples/tree/master/devtools-panels
 - 
 
 -->
