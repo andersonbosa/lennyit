@@ -16,7 +16,7 @@
 
 ## Limitations
 
-- [`serviceWorker.js`](serviceWorker.js) [must](https://stackoverflow.com/questions/66114920/service-worker-registration-failed-chrome-extension) be in root directory.
+- [`serviceWorker.js`](serviceWorker.js) [must][serviceWorkLimt] be in root directory.
 
 <!-- 
 
@@ -42,3 +42,5 @@
 - https://addons.mozilla.org/pt-BR/firefox/
 
 -->
+
+[serviceWorkLimt]: https://stackoverflow.com/questions/66114920/service-worker-registration-failed-chrome-extension
