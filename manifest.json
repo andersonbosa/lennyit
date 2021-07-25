@@ -8,9 +8,7 @@
     "activeTab"
   ],
   "background": {
-    "service_worker": [
-      "public/js/background.js"
-    ]
+    "service_worker": "public/js/background.js"
   },
   "actions": {
     "default_title": "Lenny It",
